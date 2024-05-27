@@ -1,0 +1,41 @@
+/* src/styles/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffdd57;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+
+.content-container {
+    padding-top: 80px; 
+}
+
+
+.nav-logo {
+    font-size: 20px;
+    cursor: pointer;
+    color: #000; /* Black text for better visibility on yellow */
+}
+
+.nav-items .logout-button {
+    padding: 8px 16px;
+    margin-right: 20px;  /* Adds space to the right of the button */
+    background-color: #dc3545; /* Keep the logout button red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-items .logout-button:hover {
+    background-color: #c82333;
+}

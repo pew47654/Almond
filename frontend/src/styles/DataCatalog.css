@@ -1,0 +1,49 @@
+.data-catalog-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.catalog-header {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.connection-details p {
+    margin: 8px 0;
+}
+
+.data-dictionary-button {
+    padding: 10px 20px;
+    background-color: #248d04;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.data-dictionary-button:last-child {
+    margin-right: 0; 
+}
+
+
+.data-dictionary-button:hover {
+    background-color: #0056b3;
+}
+
+.table-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.table-list li {
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
